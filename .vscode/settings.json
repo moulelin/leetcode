@@ -1,0 +1,9 @@
+{
+"pasteImage.path": "pics",
+"pasteImage.basePath": "./",
+"pasteImage.forceUnixStyleSeparator": true,
+"pasteImage.prefix": "/",
+"pasteImage.insertPattern": "![](pics/${imageFileName})"
+}
+
+
