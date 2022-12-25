@@ -3,6 +3,7 @@
 
 > 第一种解法 双指针 + **单调栈（可以获得前一个比这个大或者小的值的下标）**：遍历每个数**左右**两边比这个数小的下标位置。因为只有当这个数最小的时候，扩张左右使得j-i+1变大，否则遇到新的更小的数，就要比较哪个`最小值*长度`更大。
 
+[题目链接](https://leetcode.com/problems/maximum-score-of-a-good-subarray/description/)
 ```
 class Solution {
 public:
